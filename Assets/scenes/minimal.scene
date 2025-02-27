@@ -523,6 +523,16 @@
           "Static": true,
           "Surface": null,
           "SurfaceVelocity": "0,0,0"
+        },
+        {
+          "__type": "MachineButton",
+          "__guid": "5a21dbdb-efc6-450d-a372-1bc162d796b4",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null
         }
       ]
     }

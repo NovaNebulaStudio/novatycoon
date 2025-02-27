@@ -12,16 +12,6 @@ public sealed class ControlScript : Component {
 	}
 
 	protected override void OnUpdate() {
-		Component currentHoverComponent = playerController.Hovered;
-		if (currentHoverComponent != null) {
-			Log.Info("Hovering" + currentHoverComponent.GameObject.Name);
-		}
-
-		Component currentPressedComponent = playerController.Pressed;
-		if (currentPressedComponent != null) {
-			Log.Info("Pressing " + currentPressedComponent.GameObject.Name);
-		}
-
 		if (Input.MouseWheel.y != 0) {
 			cameraZoom = MathX.Floor(MathX.Clamp(cameraZoom + (-Input.MouseWheel.y * 50), 0, 500));
 

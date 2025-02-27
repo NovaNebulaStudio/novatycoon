@@ -27,6 +27,19 @@
       "Keyboard": false,
       "VR": false,
       "Gamepad": false
+    },
+    "Compiler": {
+      "RootNamespace": "Sandbox",
+      "DefineConstants": "SANDBOX;ADDON;DEBUG",
+      "NoWarn": "1701;1702;1591;",
+      "WarningsAsErrors": "",
+      "TreatWarningsAsErrors": false,
+      "Nullables": false,
+      "Whitelist": true,
+      "ReleaseMode": "Debug",
+      "AssemblyReferences": [],
+      "IgnoreFolders": [],
+      "DistinctAssemblyReferences": []
     }
   }
 }
