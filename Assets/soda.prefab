@@ -1,0 +1,39 @@
+{
+  "RootObject": {
+    "__guid": "598150f7-18b3-4070-ac56-80d56cf780fd",
+    "Flags": 0,
+    "Name": "cola_can",
+    "Position": "-134.8554,41.84145,0.03427802",
+    "Enabled": true,
+    "Components": [
+      {
+        "__type": "Sandbox.Prop",
+        "__guid": "78bf13d5-cc52-44df-bae1-96831f61a37d",
+        "BodyGroups": 18446744073709551615,
+        "Health": 10,
+        "IsStatic": false,
+        "MaterialGroup": null,
+        "Model": "models/sbox_props/cola_can/cola_can.vmdl",
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "OnPropBreak": null,
+        "OnPropTakeDamage": null,
+        "StartAsleep": false,
+        "Tint": "1,1,1,1"
+      }
+    ]
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "DontBreakAsTemplate": false,
+  "ResourceVersion": 1,
+  "__references": [
+    "facepunch.soda_can#33662"
+  ],
+  "__version": 1
+}
