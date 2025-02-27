@@ -1,0 +1,194 @@
+{
+  "RootObject": {
+    "__guid": "734b0498-ca30-4d36-b7f3-4ccfd5c2d914",
+    "Flags": 0,
+    "Name": "Machine",
+    "Enabled": true,
+    "Components": [
+      {
+        "__type": "FactoryMachine",
+        "__guid": "1028d50d-15d7-4830-b1c0-014dfd064f2a",
+        "cashLabel": {
+          "_type": "gameobject",
+          "go": "84bda94a-b659-4a26-abb8-76e331deff26"
+        },
+        "collectorPart": {
+          "_type": "gameobject",
+          "go": "f990205a-77e6-4d55-bcc1-494c992f7c0a"
+        },
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "productPrefab": {
+          "_type": "gameobject",
+          "prefab": "soda.prefab"
+        },
+        "spawnerPart": {
+          "_type": "gameobject",
+          "go": "6f17f49b-4bec-4a0c-844d-44c2e2c1cce0"
+        }
+      }
+    ],
+    "Children": [
+      {
+        "__guid": "6f17f49b-4bec-4a0c-844d-44c2e2c1cce0",
+        "Flags": 0,
+        "Name": "Spawner",
+        "Position": "0,0,90",
+        "Scale": "1,1.5,0.1999999",
+        "Enabled": true,
+        "Components": [
+          {
+            "__type": "Sandbox.ModelRenderer",
+            "__guid": "46cbc6e5-7055-4598-89e9-e5b4581476e9",
+            "BodyGroups": 18446744073709551615,
+            "CreateAttachments": false,
+            "MaterialGroup": null,
+            "MaterialOverride": null,
+            "Model": "models/dev/box.vmdl",
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "RenderOptions": {
+              "GameLayer": true,
+              "OverlayLayer": false,
+              "BloomLayer": false,
+              "AfterUILayer": false
+            },
+            "RenderType": "On",
+            "Tint": "0.23312,0.27907,0.20249,1"
+          }
+        ]
+      },
+      {
+        "__guid": "f990205a-77e6-4d55-bcc1-494c992f7c0a",
+        "Flags": 0,
+        "Name": "Collector",
+        "Position": "0.000003814697,0.0000005960464,5",
+        "Scale": "1,1.5,0.2",
+        "Enabled": true,
+        "Components": [
+          {
+            "__type": "Sandbox.ModelRenderer",
+            "__guid": "6c4566c2-ebda-43a2-93d7-8ff2f1811704",
+            "BodyGroups": 18446744073709551615,
+            "CreateAttachments": false,
+            "MaterialGroup": null,
+            "MaterialOverride": null,
+            "Model": "models/dev/box.vmdl",
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "RenderOptions": {
+              "GameLayer": true,
+              "OverlayLayer": false,
+              "BloomLayer": false,
+              "AfterUILayer": false
+            },
+            "RenderType": "On",
+            "Tint": "0.26977,0.16813,0.16813,1"
+          },
+          {
+            "__type": "Sandbox.BoxCollider",
+            "__guid": "1eda76df-b183-4364-b56b-4f3a9fa3c8e6",
+            "Center": "0,0,0",
+            "Friction": null,
+            "IsTrigger": true,
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "OnObjectTriggerEnter": null,
+            "OnObjectTriggerExit": null,
+            "OnTriggerEnter": null,
+            "OnTriggerExit": null,
+            "Scale": "50,50,50",
+            "Static": false,
+            "Surface": null,
+            "SurfaceVelocity": "0,0,0"
+          }
+        ]
+      },
+      {
+        "__guid": "84bda94a-b659-4a26-abb8-76e331deff26",
+        "Flags": 0,
+        "Name": "Text",
+        "Position": "0,0,109.3261",
+        "Enabled": true,
+        "Components": [
+          {
+            "__type": "Sandbox.TextRenderer",
+            "__guid": "7cd7fd62-0348-428e-bbfa-653de0862216",
+            "__version": 1,
+            "BlendMode": "Normal",
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "RenderOptions": {
+              "GameLayer": true,
+              "OverlayLayer": false,
+              "BloomLayer": false,
+              "AfterUILayer": false
+            },
+            "Scale": 0.37,
+            "TextAlignment": "Center",
+            "TextScope": {
+              "Text": "$999'999'999",
+              "TextColor": "0.45103,0.47149,0.5297,1",
+              "FontName": "Poppins",
+              "FontSize": 64,
+              "FontWeight": 800,
+              "FontItalic": false,
+              "LineHeight": 1,
+              "LetterSpacing": 0,
+              "WordSpacing": 0,
+              "Outline": {
+                "Enabled": false,
+                "Size": 4,
+                "Color": "0,0,1,1"
+              },
+              "Shadow": {
+                "Enabled": false,
+                "Size": 4,
+                "Color": "0,0,0,1",
+                "Offset": "4,4"
+              },
+              "OutlineUnder": {
+                "Enabled": false,
+                "Size": 4,
+                "Color": "0,1,0,1"
+              },
+              "ShadowUnder": {
+                "Enabled": false,
+                "Size": 4,
+                "Color": "0,0,0,1",
+                "Offset": "4,4"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "DontBreakAsTemplate": false,
+  "ResourceVersion": 1,
+  "__references": [],
+  "__version": 1
+}
