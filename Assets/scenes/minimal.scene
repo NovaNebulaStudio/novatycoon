@@ -204,7 +204,7 @@
           "OnComponentStart": null,
           "OnComponentUpdate": null,
           "PitchClamp": 90,
-          "ReachLength": 130,
+          "ReachLength": 400,
           "Renderer": {
             "_type": "component",
             "component_id": "e64f06e5-660f-4386-89f3-666445f0dba9",
@@ -408,7 +408,7 @@
           "__guid": "f555caab-9c72-454c-8085-dede36722465",
           "Flags": 0,
           "Name": "Camera",
-          "Position": "19.075,43.08357,101.8556",
+          "Position": "0,0,65",
           "Tags": "maincamera",
           "Enabled": true,
           "Components": [
@@ -533,6 +533,54 @@
           "OnComponentFixedUpdate": null,
           "OnComponentStart": null,
           "OnComponentUpdate": null
+        },
+        {
+          "__type": "Sandbox.SoundPointComponent",
+          "__guid": "f4d6effb-ef23-469b-b2f6-8b05eb20d280",
+          "Distance": 512,
+          "DistanceAttenuation": false,
+          "DistanceAttenuationOverride": false,
+          "Falloff": [
+            {
+              "x": 0,
+              "y": 1,
+              "in": 3.1415927,
+              "out": -3.1415927,
+              "mode": "Mirrored"
+            },
+            {
+              "x": 1,
+              "y": 0,
+              "in": 0,
+              "out": 0,
+              "mode": "Mirrored"
+            }
+          ],
+          "Force2d": false,
+          "MaxRepeatTime": 1,
+          "MinRepeatTime": 1,
+          "Occlusion": false,
+          "OcclusionOverride": false,
+          "OcclusionRadius": 32,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Pitch": 1,
+          "PlayOnStart": false,
+          "ReflectionOverride": false,
+          "Reflections": false,
+          "Repeat": false,
+          "SoundEvent": "sounds/player_use_fail.sound",
+          "SoundOverride": false,
+          "StopOnNew": false,
+          "TargetMixer": {
+            "Name": "game",
+            "Id": "cb9abe05-bd2a-4142-a19c-28221d7c3eec"
+          },
+          "Volume": 1
         }
       ]
     }
