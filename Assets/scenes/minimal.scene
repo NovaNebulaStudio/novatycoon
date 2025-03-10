@@ -166,6 +166,7 @@
           "AimStrengthBody": 1,
           "AimStrengthEyes": 1,
           "AimStrengthHead": 1,
+          "AirFriction": 0.1,
           "AltMoveButton": "run",
           "Body": {
             "_type": "component",
@@ -581,6 +582,39 @@
             "Id": "cb9abe05-bd2a-4142-a19c-28221d7c3eec"
           },
           "Volume": 1
+        }
+      ]
+    },
+    {
+      "__guid": "0078e8d0-8d04-4fea-860b-50caa65e1cdf",
+      "Flags": 0,
+      "Name": "ScreenGui",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.ScreenPanel",
+          "__guid": "5b16661f-9696-4f0b-949f-75e52f8f30f1",
+          "AutoScreenScale": true,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Opacity": 1,
+          "Scale": 1,
+          "ScaleStrategy": "ConsistentHeight",
+          "ZIndex": 100
+        },
+        {
+          "__type": "RootHud",
+          "__guid": "ca77b5f6-1369-44a0-80cc-ddf8ebaf94b4",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null
         }
       ]
     }
